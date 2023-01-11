@@ -1,0 +1,2384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\natha\OneDrive\Documents\PCB Designs\RPCM1 IO Board\RPCM1 IO Board.kicad_sch</source>
+    <date>1/9/2023 3:18:24 PM</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Raspberry Pi Compute Module I/O Board</title>
+        <company/>
+        <rev>1.1</rev>
+        <date>2022-12-03</date>
+        <source>RPCM1 IO Board.kicad_sch</source>
+        <comment number="1" value="creativecommons.org/licenses/by/4.0/"/>
+        <comment number="2" value="License: CC BY 4.0"/>
+        <comment number="3" value="Author: Nathaniel McBride"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>Capacitors:0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-12416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8b7ba3b-ea59-4d00-a0c8-6c29f4814856</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>Capacitors:0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-12416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60932664-fb0e-4321-a35b-6587b26ab45b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>EMK316BBJ476ML-T</value>
+      <footprint>custom:CAPC3216X190N</footprint>
+      <libsource lib="EMK316BBJ476ML-T" part="EMK316BBJ476ML-T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab08f645-d2f3-4ff0-b48e-7750ba445cb6</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10UF-0805-10V-10%</value>
+      <footprint>Capacitors:0805</footprint>
+      <fields>
+        <field name="Field4">CAP-11330</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="10UF-0805-10V-10%" description="10.0uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-11330"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23a19e2a-5b91-47f0-b25d-b0748b9a515f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10UF-0805-10V-10%</value>
+      <footprint>Capacitors:0805</footprint>
+      <fields>
+        <field name="Field4">CAP-11330</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="10UF-0805-10V-10%" description="10.0uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-11330"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c18bb59-7180-4df8-8b43-567926c88432</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>Capacitors:0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-12416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ff40705-60c4-46c1-989b-766e06600063</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10UF-0805-10V-10%</value>
+      <footprint>Capacitors:0805</footprint>
+      <fields>
+        <field name="Field4">CAP-11330</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="10UF-0805-10V-10%" description="10.0uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-11330"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4984e92b-fea0-4fce-925e-f07973a93c70</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10UF-0805-10V-10%</value>
+      <footprint>Capacitors:0805</footprint>
+      <fields>
+        <field name="Field4">CAP-11330</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="10UF-0805-10V-10%" description="10.0uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-11330"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d41995a3-bdfd-46a4-bad1-cb22d191a4ec</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>EMK316BBJ476ML-T</value>
+      <footprint>custom:CAPC3216X190N</footprint>
+      <libsource lib="EMK316BBJ476ML-T" part="EMK316BBJ476ML-T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c502b6f-3dc3-4590-b045-84703ba25071</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>EMK316BBJ476ML-T</value>
+      <footprint>custom:CAPC3216X190N</footprint>
+      <libsource lib="EMK316BBJ476ML-T" part="EMK316BBJ476ML-T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d48b87e6-b4b6-40de-814b-0974d103f31d</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1.0UF-0402-16V-10%</value>
+      <footprint>Capacitors:0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12417</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="1.0UF-0402-16V-10%" description="1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-12417"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d468cbe4-ba91-413c-bae4-28c6a95337c0</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>Capacitors:0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-12416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d2b515a-cbe4-425e-a6f4-a1deee66820e</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>4.7UF-1206-16V-_+80_-20%_</value>
+      <footprint>Capacitors:0603</footprint>
+      <libsource lib="SparkFun-Capacitors" part="4.7UF-1206-16V-_+80_-20%_" description="4.7uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>807ada7e-bccb-4417-b241-70c75ea73015</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>Capacitors:0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <property name="Field4" value="CAP-12416"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcd0905e-be47-43d1-8ee6-405676daa1c9</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>EMK316BBJ476ML-T</value>
+      <footprint>custom:CAPC3216X190N</footprint>
+      <libsource lib="EMK316BBJ476ML-T" part="EMK316BBJ476ML-T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9422c1ac-85ba-4f28-942a-55c52924d7eb</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>EMK316BBJ476ML-T</value>
+      <footprint>custom:CAPC3216X190N</footprint>
+      <libsource lib="EMK316BBJ476ML-T" part="EMK316BBJ476ML-T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f53df41b-5260-4150-b9b3-10c4918aac8a</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>EMK316BBJ476ML-T</value>
+      <footprint>custom:CAPC3216X190N</footprint>
+      <libsource lib="EMK316BBJ476ML-T" part="EMK316BBJ476ML-T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd3beb02-16da-443f-b93d-87b46c4ecf5b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED-GREEN0603</value>
+      <footprint>LED:LED-0603</footprint>
+      <fields>
+        <field name="Field4">DIO-00821</field>
+      </fields>
+      <libsource lib="SparkFun-LED" part="LED-GREEN0603" description="Green SMD LED Used in manufacturing of various products at SparkFun &lt;b&gt;Packages:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href=&quot;http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/9894312-LTST-C190GKT.aspx?CrossPart=HSMG-C190&amp;IM=0&quot;&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt;LilyPad 1206&lt;/b&gt; - SMD1206 LilyPad package &lt;a href=&quot;http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=IN150NGHARVATEKCORPORATION2049943&amp;IM=0&quot;&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href=http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/8315665-LTST-C150KGKT.aspx?IM=0&quot;&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt; 1206 Bottom Mount&lt;/b&gt; -SMD 1206 Bottom Mount &lt;a href=http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-1-ND/386854&quot;&gt;[Product Link]&lt;/li&gt;&lt;ul&gt; &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/821 &gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12757 &gt;RedBoard&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13720 &gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11076 &gt;Makey Makey&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="Field4" value="DIO-00821"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf814f1e-56b5-4a15-b582-953a59dd9267</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED-RED0603</value>
+      <footprint>LED:LED-0603</footprint>
+      <fields>
+        <field name="Field4">DIO-00819</field>
+      </fields>
+      <libsource lib="SparkFun-LED" part="LED-RED0603" description="Red SMD LED Used in manufacturing of most products at SparkFun &lt;b&gt;Packages:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href=&quot;http://docs.avagotech.com/docs/AV02-0551EN&quot;&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt;0603 SMART&lt;/b&gt; - SMD 0603 SMART package ( more efficient and expensive)&lt;a href=&quot;http://www.osram-os.com/Graphics/XPic2/00077099_0.pdf&quot;&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href=&quot;https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150OVS4.pdff&quot;&gt;[Product Link]&lt;/li&gt;&lt;ul&gt; &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/821 &gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12757 &gt;RedBoard&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13613 &gt;IOIO-OTG&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="Field4" value="DIO-00819"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8279a479-5a5c-4f05-b943-395f16ba551e</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>MF-MSMF200-2</value>
+      <footprint>custom:MF-MSMF200-2</footprint>
+      <fields>
+        <field name="ARROW_ELECTRONICS-PURCHASE-URL">https://snapeda.com/shop?store=Arrow+Electronics&amp;id=143366</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="DESCRIPTION">Polymeric PTC Resettable Fuse 8V 2A Ih Surface Mount 1812 (4532 Metric), Concave</field>
+        <field name="DIGIKEY-PURCHASE-URL">https://snapeda.com/shop?store=DigiKey&amp;id=143366</field>
+        <field name="MF">Bourns</field>
+        <field name="MOUSER-PURCHASE-URL">https://snapeda.com/shop?store=Mouser&amp;id=143366</field>
+        <field name="MP">MF-MSMF200-2</field>
+        <field name="PACKAGE">1812 Bourns</field>
+        <field name="PRICE">None</field>
+      </fields>
+      <libsource lib="MF-MSMF200-2" part="MF-MSMF200-2" description=""/>
+      <property name="ARROW_ELECTRONICS-PURCHASE-URL" value="https://snapeda.com/shop?store=Arrow+Electronics&amp;id=143366"/>
+      <property name="MP" value="MF-MSMF200-2"/>
+      <property name="PRICE" value="None"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="DESCRIPTION" value="Polymeric PTC Resettable Fuse 8V 2A Ih Surface Mount 1812 (4532 Metric), Concave"/>
+      <property name="MOUSER-PURCHASE-URL" value="https://snapeda.com/shop?store=Mouser&amp;id=143366"/>
+      <property name="MF" value="Bourns"/>
+      <property name="DIGIKEY-PURCHASE-URL" value="https://snapeda.com/shop?store=DigiKey&amp;id=143366"/>
+      <property name="PACKAGE" value="1812 Bourns"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>509ca445-5272-40af-8aa6-178260eeef4d</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b078472f-0272-46d2-bb4a-d98b47f4dc53</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4182afb-f4e5-419e-97c0-2fe2f5206af4</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1f0c8b5-9e86-4c8e-8d5d-741ac1862a84</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60b1caf9-113e-4a95-9506-d20513082e8e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB4085-GF-A</value>
+      <footprint>custom:USB4085-GF-A</footprint>
+      <libsource lib="USB4085-GF-A" part="USB4085-GF-A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c796a86e-9a79-4806-9985-866f171e1236</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HDMI_A_1.4</value>
+      <footprint>custom:10029449-111RLF</footprint>
+      <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
+      <libsource lib="Connector" part="HDMI_A_1.4" description="HDMI 1.4+ type A connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5eeae0d-e3c2-40cf-8251-32354a9fa49a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_02POGO_PIN_HOLES_ONLY</value>
+      <footprint>custom:61300211121</footprint>
+      <fields>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="CONN_02POGO_PIN_HOLES_ONLY" description="Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  &lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/116&quot;&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/553&quot;&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/115&quot;&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/117&quot;&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/743&quot;&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/search/results?term=Screw+Terminals&quot;&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11375&quot;&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11367&quot;&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/categories/141&quot;&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt; Molex polarized connector foot print use with: PRT-08233 with associated crimp pins and housings.&lt;br&gt;&lt;br&gt;2.54_SCREWTERM for use with  PRT-10571.&lt;br&gt;&lt;br&gt;3.5mm Screw Terminal footprints for  PRT-08084&lt;br&gt;&lt;br&gt;5mm Screw Terminal footprints for use with PRT-08432"/>
+      <property name="Field4" value="XXX-00000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>933fad94-1806-4254-b222-d31e2bff2a32</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_03</value>
+      <footprint>custom:M20-9990345</footprint>
+      <fields>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="CONN_03" description="Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  &lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/116&quot;&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/553&quot;&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/115&quot;&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/117&quot;&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/743&quot;&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/13875&quot;&gt; Stackable Header - 3 Pin (Female, 0.1&quot;)&lt;/a&gt; (PRT-13875)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/search/results?term=Screw+Terminals&quot;&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11375&quot;&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11367&quot;&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/categories/141&quot;&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt;     Molex polarized connector foot print use with SKU : PRT-08232 with associated crimp pins and housings."/>
+      <property name="Field4" value="XXX-00000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0668294-94d0-4530-b131-2b91f1eddb48</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB_A</value>
+      <footprint>custom:TE_1734366-2</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61a50662-026a-48a5-ad7e-372889bbf319</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>USB_A</value>
+      <footprint>custom:87520-0010BLF</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d067c75f-bd4e-421c-9813-5b5538fcc50f</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>USB_B_Micro</value>
+      <footprint>custom:10118193-0001LF</footprint>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77a20afd-9e08-4943-a5e5-c3b6977492bc</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>SRN4018-4R7M</value>
+      <footprint>custom:SRN4018-4R7M</footprint>
+      <libsource lib="SRN4018-4R7M" part="SRN4018-4R7M" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc698790-6c9c-4a40-b8ba-49edf7fe2432</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>SRN4018-4R7M</value>
+      <footprint>custom:SRN4018-4R7M</footprint>
+      <libsource lib="SRN4018-4R7M" part="SRN4018-4R7M" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfe1438b-9629-4a8c-b72b-f764ff2c2182</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Fan_CPU_4pin</value>
+      <footprint>custom:640452-4</footprint>
+      <datasheet>http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf</datasheet>
+      <libsource lib="Motor" part="Fan_CPU_4pin" description="CPU Fan, tacho output, PWM input, 4-pin connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4113aec-10cf-4c15-aab4-85d04062b10d</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG1012T-7</value>
+      <footprint>digikey-footprints:SOT-523</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds31783.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds31783.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232</field>
+        <field name="Description">MOSFET N-CH 20V 630MA SOT-523</field>
+        <field name="Digi-Key_PN">DMG1012T-7DICT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">DMG1012T-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="DMG1012T-7" description="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Digi-Key_PN" value="DMG1012T-7DICT-ND"/>
+      <property name="MPN" value="DMG1012T-7"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds31783.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232"/>
+      <property name="Description" value="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1714a1b-3b21-4d16-80d2-324fa3f45a1b</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMG1012T-7</value>
+      <footprint>digikey-footprints:SOT-523</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds31783.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds31783.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232</field>
+        <field name="Description">MOSFET N-CH 20V 630MA SOT-523</field>
+        <field name="Digi-Key_PN">DMG1012T-7DICT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">DMG1012T-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="DMG1012T-7" description="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Digi-Key_PN" value="DMG1012T-7DICT-ND"/>
+      <property name="MPN" value="DMG1012T-7"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds31783.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232"/>
+      <property name="Description" value="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>732f8483-7763-4e47-a0af-6a0811986b49</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>DMG1012T-7</value>
+      <footprint>digikey-footprints:SOT-523</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds31783.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds31783.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232</field>
+        <field name="Description">MOSFET N-CH 20V 630MA SOT-523</field>
+        <field name="Digi-Key_PN">DMG1012T-7DICT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">DMG1012T-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="DMG1012T-7" description="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Digi-Key_PN" value="DMG1012T-7DICT-ND"/>
+      <property name="MPN" value="DMG1012T-7"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds31783.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232"/>
+      <property name="Description" value="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef46e6b4-acfe-4996-b63f-059298c13331</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>DMG1012T-7</value>
+      <footprint>digikey-footprints:SOT-523</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds31783.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds31783.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232</field>
+        <field name="Description">MOSFET N-CH 20V 630MA SOT-523</field>
+        <field name="Digi-Key_PN">DMG1012T-7DICT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">DMG1012T-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="DMG1012T-7" description="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Digi-Key_PN" value="DMG1012T-7DICT-ND"/>
+      <property name="MPN" value="DMG1012T-7"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds31783.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232"/>
+      <property name="Description" value="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c623c65-c19f-4412-a0d9-0bd6f3072e36</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>DMG1012T-7</value>
+      <footprint>digikey-footprints:SOT-523</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds31783.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds31783.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232</field>
+        <field name="Description">MOSFET N-CH 20V 630MA SOT-523</field>
+        <field name="Digi-Key_PN">DMG1012T-7DICT-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">DMG1012T-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="DMG1012T-7" description="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Digi-Key_PN" value="DMG1012T-7DICT-ND"/>
+      <property name="MPN" value="DMG1012T-7"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Transistors - FETs, MOSFETs - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds31783.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232"/>
+      <property name="Description" value="MOSFET N-CH 20V 630MA SOT-523"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bed7a5d9-f7b3-4644-8a9f-fb9797d1efe3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>RESISTOR0402</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="RESISTOR0402" description="Generic Resistor Package"/>
+      <property name="Field4" value=" "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc8e22c6-7d54-4993-8ae0-82c14b135b20</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>RESISTOR0402</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4"> </field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="RESISTOR0402" description="Generic Resistor Package"/>
+      <property name="Field4" value=" "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e789a1d8-75be-4fe8-8b6f-6d0af8d5fdf7</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100KOHM-HORIZ-1_4W-1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Field4">RES-12184</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="100KOHM-HORIZ-1_4W-1%" description="100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-12184"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e25a4eeb-b50f-42b4-b59b-ea38c0462799</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100KOHM-0402-1_16W-1%</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4">RES-13495</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="100KOHM-0402-1_16W-1%" description="100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-13495"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf4e64ea-5f5d-4158-9280-c3d0ae148cbc</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100KOHM-HORIZ-1_4W-1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Field4">RES-12184</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="100KOHM-HORIZ-1_4W-1%" description="100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-12184"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82f9a836-950b-4d5c-b1b0-fb7c0e45de52</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>470OHM</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4">RES-07869</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="470OHM" description="470  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-07869"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cacbb1fe-fbc4-4a8c-bf8a-34db09352353</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>47KOHM-0603-1_10W-1%</value>
+      <footprint>Resistors:0603</footprint>
+      <fields>
+        <field name="Field4">RES-07871</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="47KOHM-0603-1_10W-1%" description="47k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-07871"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ac3ee1b-64fb-4b41-bb9a-c2364a351e51</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100KOHM-0402-1_16W-1%</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4">RES-13495</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="100KOHM-0402-1_16W-1%" description="100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-13495"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29dda5b3-9e51-4e0f-be3e-223d86e8e5e2</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100KOHM-0402-1_16W-1%</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4">RES-13495</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="100KOHM-0402-1_16W-1%" description="100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-13495"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9111bd89-f2e7-4228-befa-856272af6efb</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100KOHM-0402-1_16W-1%</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4">RES-13495</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="100KOHM-0402-1_16W-1%" description="100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-13495"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>436533da-d27e-4568-ab8b-e8eefd19bb17</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>47KOHM-0603-1_10W-1%</value>
+      <footprint>Resistors:0603</footprint>
+      <fields>
+        <field name="Field4">RES-07871</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="47KOHM-0603-1_10W-1%" description="47k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-07871"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f23030d-82b1-43e4-9ae2-0bb05b2c9ec0</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100KOHM-0402-1_16W-1%</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4">RES-13495</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="100KOHM-0402-1_16W-1%" description="100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-13495"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55ed1730-b73e-4362-8f2b-c90aa2e1184d</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100KOHM-0402-1_16W-1%</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4">RES-13495</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="100KOHM-0402-1_16W-1%" description="100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-13495"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa41668e-dc0f-4b1e-8b4c-343e24b2fd8e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>47KOHM-0603-1_10W-1%</value>
+      <footprint>Resistors:0603</footprint>
+      <fields>
+        <field name="Field4">RES-07871</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="47KOHM-0603-1_10W-1%" description="47k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-07871"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f08860e4-e15b-4239-898d-6e846a35177e</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>470OHM</value>
+      <footprint>Resistors:0402</footprint>
+      <fields>
+        <field name="Field4">RES-07869</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="470OHM" description="470  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia"/>
+      <property name="Field4" value="RES-07869"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d238ea2-b7bf-438e-bd30-d820fcb63002</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AP2331W-7</value>
+      <footprint>custom:AP2331W-7</footprint>
+      <libsource lib="AP2331W-7" part="AP2331W-7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70081e36-0569-4e59-a4a6-483c28357a00</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>PESD3V3L5UY</value>
+      <footprint>custom:PESD3V3L5UY</footprint>
+      <libsource lib="PESD3V3L5UY" part="PESD3V3L5UY" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd6ec20d-db60-4e1b-a388-12153558e914</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>PAM2306AYPKE</value>
+      <footprint>Package_DFN_QFN:WDFN-12-1EP_3x3mm_P0.45mm_EP1.7x2.5mm</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/PAM2306.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="PAM2306AYPKE" description="1A, Dual Step-Down DC/DC-Converter, Out1 3.3V, Out2 1.8V, 1.5MHz, W-DFN3x3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af52eb6b-f3fd-4cf3-a8d4-5cafd483d803</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AP7115-25SEG-7</value>
+      <footprint>custom:AP7115-25SEG</footprint>
+      <fields>
+        <field name="MANUFACTURER">Diodes Inc.</field>
+        <field name="PARTREV">12</field>
+        <field name="PRICE">None</field>
+        <field name="STANDARD">IPC7351B</field>
+      </fields>
+      <libsource lib="AP7115-25SEG-7" part="AP7115-25SEG-7" description=""/>
+      <property name="PRICE" value="None"/>
+      <property name="PARTREV" value="12"/>
+      <property name="STANDARD" value="IPC7351B"/>
+      <property name="MANUFACTURER" value="Diodes Inc."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10142a04-79ff-42de-a482-9f97cbb89573</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>RaspberryPi-CM1</value>
+      <footprint>custom:TE_1717254-4</footprint>
+      <datasheet>https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf</datasheet>
+      <libsource lib="MCU_Module" part="RaspberryPi-CM1" description="BCM2835 Broadcom 700 MZ single core, 512 MB RAM 4 GB eMMC, industrial SoM computer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da36e5b5-0789-488f-9263-6bda6a92d343</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>FSUSB42UMX</value>
+      <footprint>custom:FSUSB42UMX</footprint>
+      <libsource lib="FSUSB42UMX" part="FSUSB42UMX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RPCM1 IO Board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a87b1844-aa10-4fac-a5d2-23a62e31490f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AP2331W-7" part="AP2331W-7">
+      <footprints>
+        <fp>SC59_DIO</fp>
+        <fp>SC59_DIO-M</fp>
+        <fp>SC59_DIO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">AP2331W-7</field>
+        <field name="Footprint">SC59_DIO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="IN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="AP7115-25SEG-7" part="AP7115-25SEG-7">
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">AP7115-25SEG-7</field>
+        <field name="Footprint">SOT65P210X110-5N</field>
+        <field name="PRICE">None</field>
+        <field name="PARTREV">12</field>
+        <field name="STANDARD">IPC7351B</field>
+        <field name="MANUFACTURER">Diodes Inc.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="passive"/>
+        <pin num="5" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="HDMI_A_1.4">
+      <description>HDMI 1.4+ type A connector</description>
+      <docs>https://en.wikipedia.org/wiki/HDMI</docs>
+      <footprints>
+        <fp>HDMI*A*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HDMI_A_1.4</field>
+        <field name="Datasheet">https://en.wikipedia.org/wiki/HDMI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D2+" type="passive"/>
+        <pin num="2" name="D2S" type="power_in"/>
+        <pin num="3" name="D2-" type="passive"/>
+        <pin num="4" name="D1+" type="passive"/>
+        <pin num="5" name="D1S" type="power_in"/>
+        <pin num="6" name="D1-" type="passive"/>
+        <pin num="7" name="D0+" type="passive"/>
+        <pin num="8" name="D0S" type="power_in"/>
+        <pin num="9" name="D0-" type="passive"/>
+        <pin num="10" name="CK+" type="passive"/>
+        <pin num="11" name="CKS" type="power_in"/>
+        <pin num="12" name="CK-" type="passive"/>
+        <pin num="13" name="CEC" type="bidirectional"/>
+        <pin num="14" name="UTILITY/HEAC+" type="passive"/>
+        <pin num="15" name="SCL" type="passive"/>
+        <pin num="16" name="SDA" type="bidirectional"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="+5V" type="power_in"/>
+        <pin num="19" name="HPD/HEAC-" type="passive"/>
+        <pin num="SH" name="SH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_A">
+      <description>USB Type A connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EMK316BBJ476ML-T" part="EMK316BBJ476ML-T">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EMK316BBJ476ML-T</field>
+        <field name="Footprint">CAPC3216X190N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSUSB42UMX" part="FSUSB42UMX">
+      <footprints>
+        <fp>UMLP10_1P4X1P8_ONS</fp>
+        <fp>UMLP10_1P4X1P8_ONS-M</fp>
+        <fp>UMLP10_1P4X1P8_ONS-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">FSUSB42UMX</field>
+        <field name="Footprint">UMLP10_1P4X1P8_ONS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D+" type="unspecified"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D-" type="unspecified"/>
+        <pin num="4" name="HSD1-" type="bidirectional"/>
+        <pin num="5" name="HSD1+" type="bidirectional"/>
+        <pin num="6" name="HSD2-" type="bidirectional"/>
+        <pin num="7" name="HSD2+" type="bidirectional"/>
+        <pin num="8" name="/OE" type="unspecified"/>
+        <pin num="9" name="VCC" type="power_in"/>
+        <pin num="10" name="SEL" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="RaspberryPi-CM1">
+      <description>BCM2835 Broadcom 700 MZ single core, 512 MB RAM 4 GB eMMC, industrial SoM computer</description>
+      <docs>https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf</docs>
+      <footprints>
+        <fp>*SODIMM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">RaspberryPi-CM1</field>
+        <field name="Datasheet">https://www.raspberrypi.org/documentation/hardware/computemodule/datasheets/rpi_DATA_CM_1p0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="~{EMMC_DISABLE}" type="input"/>
+        <pin num="3" name="GPIO0" type="bidirectional"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="GPIO1" type="bidirectional"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="GPIO2" type="bidirectional"/>
+        <pin num="10" name="NC" type="no_connect"/>
+        <pin num="11" name="GPIO3" type="bidirectional"/>
+        <pin num="12" name="NC" type="no_connect"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="GPIO4" type="bidirectional"/>
+        <pin num="16" name="NC" type="no_connect"/>
+        <pin num="17" name="GPIO5" type="bidirectional"/>
+        <pin num="18" name="NC" type="no_connect"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="NC" type="no_connect"/>
+        <pin num="21" name="GPIO6" type="bidirectional"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="GPIO7" type="bidirectional"/>
+        <pin num="24" name="NC" type="no_connect"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="GND" type="passive"/>
+        <pin num="27" name="GPIO8" type="bidirectional"/>
+        <pin num="28" name="GPIO28" type="bidirectional"/>
+        <pin num="29" name="GPIO9" type="bidirectional"/>
+        <pin num="30" name="GPIO29" type="bidirectional"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="GND" type="passive"/>
+        <pin num="33" name="GPIO10" type="bidirectional"/>
+        <pin num="34" name="GPIO30" type="bidirectional"/>
+        <pin num="35" name="GPIO11" type="bidirectional"/>
+        <pin num="36" name="GPIO31" type="bidirectional"/>
+        <pin num="37" name="GND" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GPIO0-27_VDD" type="passive"/>
+        <pin num="40" name="GPIO0-27_VDD" type="power_in"/>
+        <pin num="41" name="GPIO28-45_VDD" type="passive"/>
+        <pin num="42" name="GPIO28-45_VDD" type="power_in"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="GND" type="passive"/>
+        <pin num="45" name="GPIO12" type="bidirectional"/>
+        <pin num="46" name="GPIO32" type="bidirectional"/>
+        <pin num="47" name="GPIO13" type="bidirectional"/>
+        <pin num="48" name="GPIO33" type="bidirectional"/>
+        <pin num="49" name="GND" type="passive"/>
+        <pin num="50" name="GND" type="passive"/>
+        <pin num="51" name="GPIO14" type="bidirectional"/>
+        <pin num="52" name="GPIO34" type="bidirectional"/>
+        <pin num="53" name="GPIO15" type="bidirectional"/>
+        <pin num="54" name="GPIO35" type="bidirectional"/>
+        <pin num="55" name="GND" type="passive"/>
+        <pin num="56" name="GND" type="passive"/>
+        <pin num="57" name="GPIO16" type="bidirectional"/>
+        <pin num="58" name="GPIO36" type="bidirectional"/>
+        <pin num="59" name="GPIO17" type="bidirectional"/>
+        <pin num="60" name="GPIO37" type="bidirectional"/>
+        <pin num="61" name="GND" type="passive"/>
+        <pin num="62" name="GND" type="passive"/>
+        <pin num="63" name="GPIO18" type="bidirectional"/>
+        <pin num="64" name="GPIO38" type="bidirectional"/>
+        <pin num="65" name="GPIO19" type="bidirectional"/>
+        <pin num="66" name="GPIO39" type="bidirectional"/>
+        <pin num="67" name="GND" type="passive"/>
+        <pin num="68" name="GND" type="passive"/>
+        <pin num="69" name="GPIO20" type="bidirectional"/>
+        <pin num="70" name="GPIO40" type="bidirectional"/>
+        <pin num="71" name="GPIO21" type="bidirectional"/>
+        <pin num="72" name="GPIO41" type="bidirectional"/>
+        <pin num="73" name="GND" type="passive"/>
+        <pin num="74" name="GND" type="passive"/>
+        <pin num="75" name="GPIO22" type="bidirectional"/>
+        <pin num="76" name="GPIO42" type="bidirectional"/>
+        <pin num="77" name="GPIO23" type="bidirectional"/>
+        <pin num="78" name="GPIO43" type="bidirectional"/>
+        <pin num="79" name="GND" type="passive"/>
+        <pin num="80" name="GND" type="passive"/>
+        <pin num="81" name="GPIO24" type="bidirectional"/>
+        <pin num="82" name="GPIO44" type="bidirectional"/>
+        <pin num="83" name="GPIO25" type="bidirectional"/>
+        <pin num="84" name="GPIO45" type="bidirectional"/>
+        <pin num="85" name="GND" type="passive"/>
+        <pin num="86" name="GND" type="passive"/>
+        <pin num="87" name="GPIO26" type="bidirectional"/>
+        <pin num="88" name="GPIO46_1V8" type="bidirectional"/>
+        <pin num="89" name="GPIO27" type="bidirectional"/>
+        <pin num="90" name="GPIO47_1V8" type="bidirectional"/>
+        <pin num="91" name="GND" type="passive"/>
+        <pin num="92" name="GND" type="passive"/>
+        <pin num="93" name="DSI0_DN1" type="output"/>
+        <pin num="94" name="DSI1_DP0" type="output"/>
+        <pin num="95" name="DSI0_DP1" type="output"/>
+        <pin num="96" name="DSI1_DN0" type="output"/>
+        <pin num="97" name="GND" type="passive"/>
+        <pin num="98" name="GND" type="passive"/>
+        <pin num="99" name="DSI0_DN0" type="output"/>
+        <pin num="100" name="DSI1_CP" type="output"/>
+        <pin num="101" name="DSI0_DP0" type="output"/>
+        <pin num="102" name="DSI1_CN" type="output"/>
+        <pin num="103" name="GND" type="passive"/>
+        <pin num="104" name="GND" type="passive"/>
+        <pin num="105" name="DSI0_CN" type="output"/>
+        <pin num="106" name="DSI1_DP3" type="output"/>
+        <pin num="107" name="DSI0_CP" type="output"/>
+        <pin num="108" name="DSI1_DN3" type="output"/>
+        <pin num="109" name="GND" type="passive"/>
+        <pin num="110" name="GND" type="passive"/>
+        <pin num="111" name="CK-" type="output"/>
+        <pin num="112" name="DSI1_DP2" type="output"/>
+        <pin num="113" name="CK+" type="output"/>
+        <pin num="114" name="DSI1_DN2" type="output"/>
+        <pin num="115" name="GND" type="passive"/>
+        <pin num="116" name="GND" type="passive"/>
+        <pin num="117" name="D0-" type="output"/>
+        <pin num="118" name="DSI1_DP1" type="output"/>
+        <pin num="119" name="D0+" type="output"/>
+        <pin num="120" name="DSI1_DN1" type="output"/>
+        <pin num="121" name="GND" type="passive"/>
+        <pin num="122" name="GND" type="passive"/>
+        <pin num="123" name="D1-" type="output"/>
+        <pin num="124" name="NC" type="no_connect"/>
+        <pin num="125" name="D1+" type="output"/>
+        <pin num="126" name="NC" type="no_connect"/>
+        <pin num="127" name="GND" type="passive"/>
+        <pin num="128" name="NC" type="no_connect"/>
+        <pin num="129" name="D2-" type="output"/>
+        <pin num="130" name="NC" type="no_connect"/>
+        <pin num="131" name="D2+" type="output"/>
+        <pin num="132" name="NC" type="no_connect"/>
+        <pin num="133" name="GND" type="passive"/>
+        <pin num="134" name="GND" type="passive"/>
+        <pin num="135" name="CAM1_DP3" type="input"/>
+        <pin num="136" name="CAM0_DP0" type="input"/>
+        <pin num="137" name="CAM1_DN3" type="input"/>
+        <pin num="138" name="CAM0_DN0" type="input"/>
+        <pin num="139" name="GND" type="passive"/>
+        <pin num="140" name="GND" type="passive"/>
+        <pin num="141" name="CAM1_DP2" type="input"/>
+        <pin num="142" name="CAM0_CP" type="input"/>
+        <pin num="143" name="CAM1_DN2" type="input"/>
+        <pin num="144" name="CAM0_CN" type="input"/>
+        <pin num="145" name="GND" type="passive"/>
+        <pin num="146" name="GND" type="passive"/>
+        <pin num="147" name="CAM1_CP" type="input"/>
+        <pin num="148" name="CAM0_DP1" type="input"/>
+        <pin num="149" name="CAM1_CN" type="input"/>
+        <pin num="150" name="CAM0_DN1" type="input"/>
+        <pin num="151" name="GND" type="passive"/>
+        <pin num="152" name="GND" type="passive"/>
+        <pin num="153" name="CAM1_DP1" type="input"/>
+        <pin num="154" name="NC" type="no_connect"/>
+        <pin num="155" name="CAM1_DN1" type="input"/>
+        <pin num="156" name="NC" type="no_connect"/>
+        <pin num="157" name="GND" type="passive"/>
+        <pin num="158" name="NC" type="no_connect"/>
+        <pin num="159" name="CAM1_DP0" type="input"/>
+        <pin num="160" name="NC" type="no_connect"/>
+        <pin num="161" name="CAM1_DN0" type="input"/>
+        <pin num="162" name="NC" type="no_connect"/>
+        <pin num="163" name="GND" type="passive"/>
+        <pin num="164" name="GND" type="passive"/>
+        <pin num="165" name="USB_DP" type="bidirectional"/>
+        <pin num="166" name="TVDAC" type="output"/>
+        <pin num="167" name="USB_DM" type="bidirectional"/>
+        <pin num="168" name="USB_OTGID" type="passive"/>
+        <pin num="169" name="GND" type="passive"/>
+        <pin num="170" name="GND" type="passive"/>
+        <pin num="171" name="CEC" type="bidirectional"/>
+        <pin num="172" name="~{VC_TRST}" type="input"/>
+        <pin num="173" name="SDA" type="bidirectional"/>
+        <pin num="174" name="VC_TDI" type="input"/>
+        <pin num="175" name="SCL" type="bidirectional"/>
+        <pin num="176" name="VC_TMS" type="input"/>
+        <pin num="177" name="RUN" type="input"/>
+        <pin num="178" name="VC_TDO" type="output"/>
+        <pin num="179" name="VDD_CORE_(DO_NOT_CONNECT)" type="no_connect"/>
+        <pin num="180" name="VC_TCK" type="input"/>
+        <pin num="181" name="GND" type="passive"/>
+        <pin num="182" name="GND" type="passive"/>
+        <pin num="183" name="1V8" type="passive"/>
+        <pin num="184" name="1V8" type="passive"/>
+        <pin num="185" name="1V8" type="passive"/>
+        <pin num="186" name="1V8" type="power_in"/>
+        <pin num="187" name="GND" type="passive"/>
+        <pin num="188" name="GND" type="passive"/>
+        <pin num="189" name="VDAC" type="passive"/>
+        <pin num="190" name="VDAC" type="power_in"/>
+        <pin num="191" name="3V3" type="passive"/>
+        <pin num="192" name="3V3" type="passive"/>
+        <pin num="193" name="3V3" type="passive"/>
+        <pin num="194" name="3V3" type="power_in"/>
+        <pin num="195" name="GND" type="passive"/>
+        <pin num="196" name="GND" type="power_out"/>
+        <pin num="197" name="VBAT" type="passive"/>
+        <pin num="198" name="VBAT" type="passive"/>
+        <pin num="199" name="VBAT" type="passive"/>
+        <pin num="200" name="VBAT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MF-MSMF200-2" part="MF-MSMF200-2">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">MF-MSMF200-2</field>
+        <field name="Footprint">FUSER_MF-MSMF200-2</field>
+        <field name="ARROW_ELECTRONICS-PURCHASE-URL">https://snapeda.com/shop?store=Arrow+Electronics&amp;id=143366</field>
+        <field name="MP">MF-MSMF200-2</field>
+        <field name="PRICE">None</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="DESCRIPTION">Polymeric PTC Resettable Fuse 8V 2A Ih Surface Mount 1812 (4532 Metric), Concave</field>
+        <field name="MOUSER-PURCHASE-URL">https://snapeda.com/shop?store=Mouser&amp;id=143366</field>
+        <field name="MF">Bourns</field>
+        <field name="DIGIKEY-PURCHASE-URL">https://snapeda.com/shop?store=DigiKey&amp;id=143366</field>
+        <field name="PACKAGE">1812 Bourns</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Motor" part="Fan_CPU_4pin">
+      <description>CPU Fan, tacho output, PWM input, 4-pin connector</description>
+      <docs>http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf</docs>
+      <footprints>
+        <fp>FanPinHeader*P2.54mm*Vertical*</fp>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Fan_CPU_4pin</field>
+        <field name="Datasheet">http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+        <pin num="3" name="Tacho" type="passive"/>
+        <pin num="4" name="PWM" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="PESD3V3L5UY" part="PESD3V3L5UY">
+      <footprints>
+        <fp>SOT363_NXP</fp>
+        <fp>SOT363_NXP-M</fp>
+        <fp>SOT363_NXP-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">PESD3V3L5UY</field>
+        <field name="Footprint">SOT363_NXP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K1" type="unspecified"/>
+        <pin num="2" name="A" type="unspecified"/>
+        <pin num="3" name="K2" type="unspecified"/>
+        <pin num="4" name="K3" type="unspecified"/>
+        <pin num="5" name="K4" type="unspecified"/>
+        <pin num="6" name="K5" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="PAM2306AYPKE">
+      <description>1A, Dual Step-Down DC/DC-Converter, Out1 3.3V, Out2 1.8V, 1.5MHz, W-DFN3x3</description>
+      <docs>https://www.diodes.com/assets/Datasheets/PAM2306.pdf</docs>
+      <footprints>
+        <fp>WDFN*3x3mm?P0.45mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PAM2306AYPKE</field>
+        <field name="Footprint">Package_DFN_QFN:WDFN-12-1EP_3x3mm_P0.45mm_EP1.7x2.5mm</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/PAM2306.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN2" type="power_in"/>
+        <pin num="2" name="LX2" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB1" type="input"/>
+        <pin num="5" name="NC1" type="no_connect"/>
+        <pin num="6" name="EN1" type="input"/>
+        <pin num="7" name="VIN1" type="power_in"/>
+        <pin num="8" name="LX1" type="output"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="FB2" type="input"/>
+        <pin num="11" name="NC2" type="no_connect"/>
+        <pin num="12" name="EN2" type="input"/>
+        <pin num="13" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SRN4018-4R7M" part="SRN4018-4R7M">
+      <footprints>
+        <fp>IND_BOURNS_SRN4018</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L?</field>
+        <field name="Value">SRN4018-4R7M</field>
+        <field name="Footprint">IND_BOURNS_SRN4018</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%">
+      <description>0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*0603*</fp>
+        <fp>*0603*</fp>
+        <fp>*0603*</fp>
+        <fp>*CAP-PTH-SMALL-KIT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1UF-0402-16V-10%</field>
+        <field name="Footprint">0402</field>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="1.0UF-0402-16V-10%">
+      <description>1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*0603*</fp>
+        <fp>*0805*</fp>
+        <fp>*0805*</fp>
+        <fp>*1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">1.0UF-0402-16V-10%</field>
+        <field name="Footprint">0402</field>
+        <field name="Field4">CAP-12417</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="10UF-0805-10V-10%">
+      <description>10.0uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10UF-0805-10V-10%</field>
+        <field name="Footprint">0805</field>
+        <field name="Field4">CAP-11330</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="4.7UF-1206-16V-_+80_-20%_">
+      <description>4.7uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*1206*</fp>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7UF-1206-16V-_+80_-20%_</field>
+        <field name="Footprint">1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="CONN_02POGO_PIN_HOLES_ONLY">
+      <description>Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  &lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/116"&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/553"&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/115"&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/117"&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/743"&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/search/results?term=Screw+Terminals"&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11375"&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11367"&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/categories/141"&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt; Molex polarized connector foot print use with: PRT-08233 with associated crimp pins and housings.&lt;br&gt;&lt;br&gt;2.54_SCREWTERM for use with  PRT-10571.&lt;br&gt;&lt;br&gt;3.5mm Screw Terminal footprints for  PRT-08084&lt;br&gt;&lt;br&gt;5mm Screw Terminal footprints for use with PRT-08432</description>
+      <footprints>
+        <fp>*1X02_PP_HOLES_ONLY*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02POGO_PIN_HOLES_ONLY</field>
+        <field name="Footprint">1X02_PP_HOLES_ONLY</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="CONN_03">
+      <description>Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  &lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/116"&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/553"&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/115"&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/117"&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/743"&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13875"&gt; Stackable Header - 3 Pin (Female, 0.1")&lt;/a&gt; (PRT-13875)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/search/results?term=Screw+Terminals"&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11375"&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11367"&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/categories/141"&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt;     Molex polarized connector foot print use with SKU : PRT-08232 with associated crimp pins and housings.</description>
+      <footprints>
+        <fp>*1X03*</fp>
+        <fp>*SCREWTERMINAL-5MM-3*</fp>
+        <fp>*1X03_NO_SILK*</fp>
+        <fp>*1X03_SMD_RA_MALE_POST_SMALLER*</fp>
+        <fp>*1X03_SMD_RA_MALE_POST_SMALLEST*</fp>
+        <fp>*JST-3-PTH*</fp>
+        <fp>*JST-3-PTH-NS*</fp>
+        <fp>*JST-3-PTH-VERT*</fp>
+        <fp>*JST-3-SMD*</fp>
+        <fp>*1X03_LOCK*</fp>
+        <fp>*1X03_LOCK_LONGPADS*</fp>
+        <fp>*1X03_LOCK_NO_SILK*</fp>
+        <fp>*1X03_LONGPADS*</fp>
+        <fp>*1X03_PP_HOLES_ONLY*</fp>
+        <fp>*MOLEX-1X3*</fp>
+        <fp>*MOLEX-1X3_LOCK*</fp>
+        <fp>*SCREWTERMINAL-3.5MM-3*</fp>
+        <fp>*SCREWTERMINAL-3.5MM-3-NS*</fp>
+        <fp>*SCREWTERMINAL-3.5MM-3_LOCK.007S*</fp>
+        <fp>*1X03-1MM-RA*</fp>
+        <fp>*1X03_SMD_RA_FEMALE*</fp>
+        <fp>*1X03_SMD_RA_MALE*</fp>
+        <fp>*1X03_SMD_RA_MALE_POST*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_03</field>
+        <field name="Footprint">1X03</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-LED" part="LED-GREEN0603">
+      <description>Green SMD LED Used in manufacturing of various products at SparkFun &lt;b&gt;Packages:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/9894312-LTST-C190GKT.aspx?CrossPart=HSMG-C190&amp;IM=0"&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt;LilyPad 1206&lt;/b&gt; - SMD1206 LilyPad package &lt;a href="http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=IN150NGHARVATEKCORPORATION2049943&amp;IM=0"&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href=http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/8315665-LTST-C150KGKT.aspx?IM=0"&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt; 1206 Bottom Mount&lt;/b&gt; -SMD 1206 Bottom Mount &lt;a href=http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-1-ND/386854"&gt;[Product Link]&lt;/li&gt;&lt;ul&gt; &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/821 &gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12757 &gt;RedBoard&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13720 &gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11076 &gt;Makey Makey&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*LED-0603*</fp>
+        <fp>*LED-1206*</fp>
+        <fp>*LED-1206-BOTTOM*</fp>
+        <fp>*LED-1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-GREEN0603</field>
+        <field name="Footprint">LED-0603</field>
+        <field name="Field4">DIO-00821</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-LED" part="LED-RED0603">
+      <description>Red SMD LED Used in manufacturing of most products at SparkFun &lt;b&gt;Packages:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://docs.avagotech.com/docs/AV02-0551EN"&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt;0603 SMART&lt;/b&gt; - SMD 0603 SMART package ( more efficient and expensive)&lt;a href="http://www.osram-os.com/Graphics/XPic2/00077099_0.pdf"&gt;[Product Link]&lt;/li&gt;&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150OVS4.pdff"&gt;[Product Link]&lt;/li&gt;&lt;ul&gt; &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/821 &gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12757 &gt;RedBoard&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/13613 &gt;IOIO-OTG&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*LED-0603*</fp>
+        <fp>*LED-0603*</fp>
+        <fp>*LED-1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RED0603</field>
+        <field name="Footprint">LED-0603</field>
+        <field name="Field4">DIO-00819</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="100KOHM-0402-1_16W-1%">
+      <description>100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia</description>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100KOHM-0402-1_16W-1%</field>
+        <field name="Footprint">0402</field>
+        <field name="Field4">RES-13495</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="100KOHM-HORIZ-1_4W-1%">
+      <description>100k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia</description>
+      <footprints>
+        <fp>*AXIAL-0.3*</fp>
+        <fp>*AXIAL-0.3*</fp>
+        <fp>*AXIAL-0.3-KIT*</fp>
+        <fp>*AXIAL-0.3-KIT*</fp>
+        <fp>*AXIAL-0.1*</fp>
+        <fp>*AXIAL-0.1*</fp>
+        <fp>*AXIAL-0.1-KIT*</fp>
+        <fp>*AXIAL-0.1-KIT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">100KOHM-HORIZ-1_4W-1%</field>
+        <field name="Footprint">AXIAL-0.3</field>
+        <field name="Field4">RES-12184</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="1" type="passive"/>
+        <pin num="P$2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="470OHM">
+      <description>470  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia</description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">470OHM</field>
+        <field name="Footprint">0603</field>
+        <field name="Field4">RES-07869</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="47KOHM-0603-1_10W-1%">
+      <description>47k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia</description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">47KOHM-0603-1_10W-1%</field>
+        <field name="Footprint">0603</field>
+        <field name="Field4">RES-07871</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="RESISTOR0402">
+      <description>Generic Resistor Package</description>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*0603*</fp>
+        <fp>*0805*</fp>
+        <fp>*1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR0402</field>
+        <field name="Footprint">0402</field>
+        <field name="Field4"> </field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB4085-GF-A" part="USB4085-GF-A">
+      <footprints>
+        <fp>CONN16_USB4085-GF-A_GCT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB4085-GF-A</field>
+        <field name="Footprint">CONN16_USB4085-GF-A_GCT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+        <pin num="11" name="11" type="unspecified"/>
+        <pin num="12" name="12" type="unspecified"/>
+        <pin num="13" name="13" type="unspecified"/>
+        <pin num="14" name="14" type="unspecified"/>
+        <pin num="15" name="15" type="unspecified"/>
+        <pin num="16" name="16" type="unspecified"/>
+        <pin num="17" name="17" type="unspecified"/>
+        <pin num="18" name="18" type="unspecified"/>
+        <pin num="19" name="19" type="unspecified"/>
+        <pin num="20" name="20" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Transistors-FETs-MOSFETs-Single" part="DMG1012T-7">
+      <description>MOSFET N-CH 20V 630MA SOT-523</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds31783.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG1012T-7</field>
+        <field name="Footprint">digikey-footprints:SOT-523</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds31783.pdf</field>
+        <field name="Digi-Key_PN">DMG1012T-7DICT-ND</field>
+        <field name="MPN">DMG1012T-7</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds31783.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/DMG1012T-7/DMG1012T-7DICT-ND/2181232</field>
+        <field name="Description">MOSFET N-CH 20V 630MA SOT-523</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="bidirectional"/>
+        <pin num="2" name="S" type="bidirectional"/>
+        <pin num="3" name="D" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AP2331W-7">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/AP2331W-7.lib</uri>
+    </library>
+    <library logical="AP7115-25SEG-7">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/AP7115-25SEG-7.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="EMK316BBJ476ML-T">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/EMK316BBJ476ML-T.kicad_sym</uri>
+    </library>
+    <library logical="FSUSB42UMX">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/FSUSB42UMX.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="MF-MSMF200-2">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/MF-MSMF200-2.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="PESD3V3L5UY">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/PESD3V3L5UY.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="SRN4018-4R7M">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/SRN4018-4R7M.lib</uri>
+    </library>
+    <library logical="SparkFun-Capacitors">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/Libraries/SparkFun-Capacitors.lib</uri>
+    </library>
+    <library logical="SparkFun-Connectors">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/Libraries/SparkFun-Connectors.lib</uri>
+    </library>
+    <library logical="SparkFun-LED">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/Libraries/SparkFun-LED.lib</uri>
+    </library>
+    <library logical="SparkFun-Resistors">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/Libraries/SparkFun-Resistors.lib</uri>
+    </library>
+    <library logical="USB4085-GF-A">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/USB4085-GF-A.lib</uri>
+    </library>
+    <library logical="dk_Transistors-FETs-MOSFETs-Single">
+      <uri>C:/Users/natha/OneDrive/Documents/PCB Designs/Symbol Libraries/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5VD">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="+5V" pintype="power_in"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="U2" pin="6" pinfunction="K5" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/DAC_2V5">
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="OUT" pintype="output"/>
+      <node ref="U5" pin="189" pinfunction="VDAC" pintype="passive"/>
+      <node ref="U5" pin="190" pinfunction="VDAC" pintype="power_in"/>
+    </net>
+    <net code="3" name="/EMMC_DISABLE">
+      <node ref="Q3" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="~{EMMC_DISABLE}" pintype="input"/>
+    </net>
+    <net code="4" name="/EMMC_ENABLE">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="90" pinfunction="GPIO47_1V8" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/GPIO14">
+      <node ref="M1" pin="4" pinfunction="PWM" pintype="input"/>
+      <node ref="U5" pin="51" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/GPIO15">
+      <node ref="M1" pin="3" pinfunction="Tacho" pintype="passive"/>
+      <node ref="U5" pin="53" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/HDMI_CEC">
+      <node ref="Q1" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="U5" pin="171" pinfunction="CEC" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/HDMI_CK+">
+      <node ref="J2" pin="10" pinfunction="CK+" pintype="passive"/>
+      <node ref="U5" pin="113" pinfunction="CK+" pintype="output"/>
+    </net>
+    <net code="9" name="/HDMI_CK-">
+      <node ref="J2" pin="12" pinfunction="CK-" pintype="passive"/>
+      <node ref="U5" pin="111" pinfunction="CK-" pintype="output"/>
+    </net>
+    <net code="10" name="/HDMI_D0+">
+      <node ref="J2" pin="7" pinfunction="D0+" pintype="passive"/>
+      <node ref="U5" pin="119" pinfunction="D0+" pintype="output"/>
+    </net>
+    <net code="11" name="/HDMI_D0-">
+      <node ref="J2" pin="9" pinfunction="D0-" pintype="passive"/>
+      <node ref="U5" pin="117" pinfunction="D0-" pintype="output"/>
+    </net>
+    <net code="12" name="/HDMI_D1+">
+      <node ref="J2" pin="4" pinfunction="D1+" pintype="passive"/>
+      <node ref="U5" pin="125" pinfunction="D1+" pintype="output"/>
+    </net>
+    <net code="13" name="/HDMI_D1-">
+      <node ref="J2" pin="6" pinfunction="D1-" pintype="passive"/>
+      <node ref="U5" pin="123" pinfunction="D1-" pintype="output"/>
+    </net>
+    <net code="14" name="/HDMI_D2+">
+      <node ref="J2" pin="1" pinfunction="D2+" pintype="passive"/>
+      <node ref="U5" pin="131" pinfunction="D2+" pintype="output"/>
+    </net>
+    <net code="15" name="/HDMI_D2-">
+      <node ref="J2" pin="3" pinfunction="D2-" pintype="passive"/>
+      <node ref="U5" pin="129" pinfunction="D2-" pintype="output"/>
+    </net>
+    <net code="16" name="/HDMI_HPD">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R5" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="88" pinfunction="GPIO46_1V8" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/HDMI_SCL">
+      <node ref="J2" pin="15" pinfunction="SCL" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="K1" pintype="unspecified"/>
+      <node ref="U5" pin="175" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/HDMI_SDA">
+      <node ref="J2" pin="16" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="K2" pintype="unspecified"/>
+      <node ref="U5" pin="173" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/USB_D+">
+      <node ref="U5" pin="165" pinfunction="USB_DP" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pinfunction="D+" pintype="unspecified"/>
+    </net>
+    <net code="20" name="/USB_D-">
+      <node ref="U5" pin="167" pinfunction="USB_DM" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="D-" pintype="unspecified"/>
+    </net>
+    <net code="21" name="/VUSB_B">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="1.8V">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R5" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="FB2" pintype="input"/>
+      <node ref="U5" pin="183" pinfunction="1V8" pintype="passive"/>
+      <node ref="U5" pin="184" pinfunction="1V8" pintype="passive"/>
+      <node ref="U5" pin="185" pinfunction="1V8" pintype="passive"/>
+      <node ref="U5" pin="186" pinfunction="1V8" pintype="power_in"/>
+    </net>
+    <net code="23" name="3.3V">
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="FB1" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U5" pin="191" pinfunction="3V3" pintype="passive"/>
+      <node ref="U5" pin="192" pinfunction="3V3" pintype="passive"/>
+      <node ref="U5" pin="193" pinfunction="3V3" pintype="passive"/>
+      <node ref="U5" pin="194" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U6" pin="9" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="24" name="5V">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J6" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="M1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="IN" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="EN1" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="VIN1" pintype="power_in"/>
+      <node ref="U5" pin="197" pinfunction="VBAT" pintype="passive"/>
+      <node ref="U5" pin="198" pinfunction="VBAT" pintype="passive"/>
+      <node ref="U5" pin="199" pinfunction="VBAT" pintype="passive"/>
+      <node ref="U5" pin="200" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="25" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J1" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="J1" pin="17" pinfunction="17" pintype="unspecified"/>
+      <node ref="J1" pin="18" pinfunction="18" pintype="unspecified"/>
+      <node ref="J1" pin="19" pinfunction="19" pintype="unspecified"/>
+      <node ref="J1" pin="20" pinfunction="20" pintype="unspecified"/>
+      <node ref="J1" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="J1" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="J2" pin="11" pinfunction="CKS" pintype="power_in"/>
+      <node ref="J2" pin="17" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="2" pinfunction="D2S" pintype="power_in"/>
+      <node ref="J2" pin="5" pinfunction="D1S" pintype="power_in"/>
+      <node ref="J2" pin="8" pinfunction="D0S" pintype="power_in"/>
+      <node ref="J2" pin="SH" pinfunction="SH" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J6" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J7" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="M1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="P$2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="A" pintype="unspecified"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="103" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="104" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="109" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="110" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="115" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="116" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="121" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="122" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="127" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="133" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="134" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="139" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="140" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="145" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="146" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="151" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="152" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="157" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="163" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="164" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="169" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="170" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="181" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="182" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="187" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="188" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="19" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="195" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="196" pinfunction="GND" pintype="power_out"/>
+      <node ref="U5" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="26" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="31" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="32" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="37" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="43" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="44" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="49" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="50" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="55" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="56" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="61" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="62" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="67" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="68" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="73" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="74" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="79" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="80" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="85" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="86" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="91" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="92" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="97" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="98" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="/OE" pintype="unspecified"/>
+    </net>
+    <net code="26" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="EN2" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VIN2" pintype="power_in"/>
+    </net>
+    <net code="28" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="BP" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D1-PadC)">
+      <node ref="D1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="bidirectional"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="J1" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J1" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(J2-Pad13)">
+      <node ref="J2" pin="13" pinfunction="CEC" pintype="bidirectional"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="K4" pintype="unspecified"/>
+    </net>
+    <net code="35" name="Net-(J2-Pad19)">
+      <node ref="J2" pin="19" pinfunction="HPD/HEAC-" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R3" pin="P$1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="K3" pintype="unspecified"/>
+    </net>
+    <net code="36" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J6" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="HSD2-" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J6" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U6" pin="7" pinfunction="HSD2+" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="HSD1-" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="HSD1+" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U3" pin="8" pinfunction="LX1" pintype="output"/>
+    </net>
+    <net code="42" name="Net-(L2-Pad2)">
+      <node ref="L2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U3" pin="2" pinfunction="LX2" pintype="output"/>
+    </net>
+    <net code="43" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3" pinfunction="D" pintype="bidirectional"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="SEL" pintype="unspecified"/>
+    </net>
+    <net code="44" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="30" pinfunction="GPIO29" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="28" pinfunction="GPIO28" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="84" pinfunction="GPIO45" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="82" pinfunction="GPIO44" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="3" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="4" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J1-Pad5)">
+      <node ref="J1" pin="5" pinfunction="5" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="6" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J1-Pad11)">
+      <node ref="J1" pin="11" pinfunction="11" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J1-Pad12)">
+      <node ref="J1" pin="12" pinfunction="12" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J1-Pad13)">
+      <node ref="J1" pin="13" pinfunction="13" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J1-Pad14)">
+      <node ref="J1" pin="14" pinfunction="14" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J2-Pad14)">
+      <node ref="J2" pin="14" pinfunction="UTILITY/HEAC+" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J7-Pad4)">
+      <node ref="J7" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="NC1" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="NC2" pintype="no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U5-Pad3)">
+      <node ref="U5" pin="3" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U5-Pad5)">
+      <node ref="U5" pin="5" pinfunction="GPIO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U5-Pad6)">
+      <node ref="U5" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U5-Pad8)">
+      <node ref="U5" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U5-Pad9)">
+      <node ref="U5" pin="9" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U5-Pad10)">
+      <node ref="U5" pin="10" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U5-Pad11)">
+      <node ref="U5" pin="11" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U5-Pad12)">
+      <node ref="U5" pin="12" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U5-Pad14)">
+      <node ref="U5" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U5-Pad15)">
+      <node ref="U5" pin="15" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U5-Pad16)">
+      <node ref="U5" pin="16" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U5-Pad17)">
+      <node ref="U5" pin="17" pinfunction="GPIO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U5-Pad18)">
+      <node ref="U5" pin="18" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U5-Pad20)">
+      <node ref="U5" pin="20" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U5-Pad21)">
+      <node ref="U5" pin="21" pinfunction="GPIO6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U5-Pad22)">
+      <node ref="U5" pin="22" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U5-Pad23)">
+      <node ref="U5" pin="23" pinfunction="GPIO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U5-Pad24)">
+      <node ref="U5" pin="24" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U5-Pad27)">
+      <node ref="U5" pin="27" pinfunction="GPIO8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U5-Pad29)">
+      <node ref="U5" pin="29" pinfunction="GPIO9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U5-Pad33)">
+      <node ref="U5" pin="33" pinfunction="GPIO10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U5-Pad34)">
+      <node ref="U5" pin="34" pinfunction="GPIO30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U5-Pad35)">
+      <node ref="U5" pin="35" pinfunction="GPIO11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U5-Pad36)">
+      <node ref="U5" pin="36" pinfunction="GPIO31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U5-Pad39)">
+      <node ref="U5" pin="39" pinfunction="GPIO0-27_VDD" pintype="passive+no_connect"/>
+      <node ref="U5" pin="40" pinfunction="GPIO0-27_VDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U5-Pad41)">
+      <node ref="U5" pin="41" pinfunction="GPIO28-45_VDD" pintype="passive+no_connect"/>
+      <node ref="U5" pin="42" pinfunction="GPIO28-45_VDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U5-Pad45)">
+      <node ref="U5" pin="45" pinfunction="GPIO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U5-Pad46)">
+      <node ref="U5" pin="46" pinfunction="GPIO32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U5-Pad47)">
+      <node ref="U5" pin="47" pinfunction="GPIO13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U5-Pad48)">
+      <node ref="U5" pin="48" pinfunction="GPIO33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U5-Pad52)">
+      <node ref="U5" pin="52" pinfunction="GPIO34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U5-Pad54)">
+      <node ref="U5" pin="54" pinfunction="GPIO35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U5-Pad57)">
+      <node ref="U5" pin="57" pinfunction="GPIO16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U5-Pad58)">
+      <node ref="U5" pin="58" pinfunction="GPIO36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U5-Pad59)">
+      <node ref="U5" pin="59" pinfunction="GPIO17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U5-Pad60)">
+      <node ref="U5" pin="60" pinfunction="GPIO37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U5-Pad63)">
+      <node ref="U5" pin="63" pinfunction="GPIO18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U5-Pad64)">
+      <node ref="U5" pin="64" pinfunction="GPIO38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U5-Pad65)">
+      <node ref="U5" pin="65" pinfunction="GPIO19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U5-Pad66)">
+      <node ref="U5" pin="66" pinfunction="GPIO39" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U5-Pad69)">
+      <node ref="U5" pin="69" pinfunction="GPIO20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U5-Pad70)">
+      <node ref="U5" pin="70" pinfunction="GPIO40" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U5-Pad71)">
+      <node ref="U5" pin="71" pinfunction="GPIO21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U5-Pad72)">
+      <node ref="U5" pin="72" pinfunction="GPIO41" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U5-Pad75)">
+      <node ref="U5" pin="75" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U5-Pad76)">
+      <node ref="U5" pin="76" pinfunction="GPIO42" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U5-Pad77)">
+      <node ref="U5" pin="77" pinfunction="GPIO23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U5-Pad78)">
+      <node ref="U5" pin="78" pinfunction="GPIO43" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U5-Pad81)">
+      <node ref="U5" pin="81" pinfunction="GPIO24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U5-Pad83)">
+      <node ref="U5" pin="83" pinfunction="GPIO25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U5-Pad87)">
+      <node ref="U5" pin="87" pinfunction="GPIO26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U5-Pad89)">
+      <node ref="U5" pin="89" pinfunction="GPIO27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U5-Pad93)">
+      <node ref="U5" pin="93" pinfunction="DSI0_DN1" pintype="output+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U5-Pad94)">
+      <node ref="U5" pin="94" pinfunction="DSI1_DP0" pintype="output+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U5-Pad95)">
+      <node ref="U5" pin="95" pinfunction="DSI0_DP1" pintype="output+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U5-Pad96)">
+      <node ref="U5" pin="96" pinfunction="DSI1_DN0" pintype="output+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U5-Pad99)">
+      <node ref="U5" pin="99" pinfunction="DSI0_DN0" pintype="output+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U5-Pad100)">
+      <node ref="U5" pin="100" pinfunction="DSI1_CP" pintype="output+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U5-Pad101)">
+      <node ref="U5" pin="101" pinfunction="DSI0_DP0" pintype="output+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U5-Pad102)">
+      <node ref="U5" pin="102" pinfunction="DSI1_CN" pintype="output+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U5-Pad105)">
+      <node ref="U5" pin="105" pinfunction="DSI0_CN" pintype="output+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U5-Pad106)">
+      <node ref="U5" pin="106" pinfunction="DSI1_DP3" pintype="output+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U5-Pad107)">
+      <node ref="U5" pin="107" pinfunction="DSI0_CP" pintype="output+no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U5-Pad108)">
+      <node ref="U5" pin="108" pinfunction="DSI1_DN3" pintype="output+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U5-Pad112)">
+      <node ref="U5" pin="112" pinfunction="DSI1_DP2" pintype="output+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U5-Pad114)">
+      <node ref="U5" pin="114" pinfunction="DSI1_DN2" pintype="output+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U5-Pad118)">
+      <node ref="U5" pin="118" pinfunction="DSI1_DP1" pintype="output+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U5-Pad120)">
+      <node ref="U5" pin="120" pinfunction="DSI1_DN1" pintype="output+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U5-Pad124)">
+      <node ref="U5" pin="124" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U5-Pad126)">
+      <node ref="U5" pin="126" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U5-Pad128)">
+      <node ref="U5" pin="128" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U5-Pad130)">
+      <node ref="U5" pin="130" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U5-Pad132)">
+      <node ref="U5" pin="132" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U5-Pad135)">
+      <node ref="U5" pin="135" pinfunction="CAM1_DP3" pintype="input+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U5-Pad136)">
+      <node ref="U5" pin="136" pinfunction="CAM0_DP0" pintype="input+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U5-Pad137)">
+      <node ref="U5" pin="137" pinfunction="CAM1_DN3" pintype="input+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U5-Pad138)">
+      <node ref="U5" pin="138" pinfunction="CAM0_DN0" pintype="input+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(U5-Pad141)">
+      <node ref="U5" pin="141" pinfunction="CAM1_DP2" pintype="input+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U5-Pad142)">
+      <node ref="U5" pin="142" pinfunction="CAM0_CP" pintype="input+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(U5-Pad143)">
+      <node ref="U5" pin="143" pinfunction="CAM1_DN2" pintype="input+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(U5-Pad144)">
+      <node ref="U5" pin="144" pinfunction="CAM0_CN" pintype="input+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(U5-Pad147)">
+      <node ref="U5" pin="147" pinfunction="CAM1_CP" pintype="input+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(U5-Pad148)">
+      <node ref="U5" pin="148" pinfunction="CAM0_DP1" pintype="input+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(U5-Pad149)">
+      <node ref="U5" pin="149" pinfunction="CAM1_CN" pintype="input+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(U5-Pad150)">
+      <node ref="U5" pin="150" pinfunction="CAM0_DN1" pintype="input+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(U5-Pad153)">
+      <node ref="U5" pin="153" pinfunction="CAM1_DP1" pintype="input+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U5-Pad154)">
+      <node ref="U5" pin="154" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U5-Pad155)">
+      <node ref="U5" pin="155" pinfunction="CAM1_DN1" pintype="input+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U5-Pad156)">
+      <node ref="U5" pin="156" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U5-Pad158)">
+      <node ref="U5" pin="158" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U5-Pad159)">
+      <node ref="U5" pin="159" pinfunction="CAM1_DP0" pintype="input+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U5-Pad160)">
+      <node ref="U5" pin="160" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U5-Pad161)">
+      <node ref="U5" pin="161" pinfunction="CAM1_DN0" pintype="input+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U5-Pad162)">
+      <node ref="U5" pin="162" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U5-Pad166)">
+      <node ref="U5" pin="166" pinfunction="TVDAC" pintype="output+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U5-Pad168)">
+      <node ref="U5" pin="168" pinfunction="USB_OTGID" pintype="passive+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U5-Pad172)">
+      <node ref="U5" pin="172" pinfunction="~{VC_TRST}" pintype="input+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(U5-Pad174)">
+      <node ref="U5" pin="174" pinfunction="VC_TDI" pintype="input+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(U5-Pad176)">
+      <node ref="U5" pin="176" pinfunction="VC_TMS" pintype="input+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(U5-Pad177)">
+      <node ref="U5" pin="177" pinfunction="RUN" pintype="input+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(U5-Pad178)">
+      <node ref="U5" pin="178" pinfunction="VC_TDO" pintype="output+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(U5-Pad179)">
+      <node ref="U5" pin="179" pinfunction="VDD_CORE_(DO_NOT_CONNECT)" pintype="no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(U5-Pad180)">
+      <node ref="U5" pin="180" pinfunction="VC_TCK" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
