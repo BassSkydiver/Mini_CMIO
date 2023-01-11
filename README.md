@@ -42,8 +42,7 @@ The Raspberry Pi Compute Module requires a 5v, 2+ Amp power supply. (5.1V Recomm
 
 ## Todo:
 1. Get PCB and Parts, then assemble & take pictures for README
-2. Organize a BOM with DikiKey product numbers
-3. Design case with support for a 40mm fan, 10-32 mounting screws, a power switch, and an additional USB-C port.
+2. Design case with support for a 40mm fan, 10-32 mounting screws, a power switch, and an additional USB-C port.
 
 ## Issues:
 No known issues at this time.
