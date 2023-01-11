@@ -1,11 +1,11 @@
 # CMIOBoard
 A tiny, compact IO board for the raspberry compute modules 1/3/3+
 
-![Top View](topview.png)
+![Top View](Images/topview.png)
 
 *A top down view to the board without components.*
 
-![Bottom View](bottomview.png)
+![Bottom View](Images/bottomview.png)
 
 *The bottom of the board.*
 
