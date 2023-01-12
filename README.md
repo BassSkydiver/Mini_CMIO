@@ -44,11 +44,5 @@ The Raspberry Pi Compute Module requires a 5v, 2+ Amp power supply. (5.1V Recomm
 6. Add camera support.
 7. Add Wifi.
 
-## Issues:
-| Issue | Solution |
-| --- | --- |
-| Copper traces too thin for 2Amps | Update Netclasses for 2oz copper layers and thicker traces |
-
-
 *License: CC BY 4.0*  
 *creativecommons.org/licenses/by/4.0*
