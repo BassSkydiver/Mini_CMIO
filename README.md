@@ -44,5 +44,5 @@ The Raspberry Pi Compute Module requires a 5v, 2+ Amp power supply. (5.1V Recomm
 6. Add camera support.
 7. Add Wifi.
 
-*License: CC BY 4.0*  
-*creativecommons.org/licenses/by/4.0*
+*License: GNU General Public License v3.0*  
+*[gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
