@@ -3,8 +3,6 @@ A tiny, compact IO board for the raspberry compute modules 1/3/3+
 
 ![Top View](Images/topview.png) ![Bottom View](Images/bottomview.png)
 
-*The top (left) and bottom (right) faces of the board*
-
 ## Features:
 IO Ports:  
 1. USB-C (Power only)
