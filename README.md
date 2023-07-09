@@ -22,7 +22,7 @@ Status LEDs:
 
 ## Dimensions:
 99.06mm x 52.5mm  
-5.84mm radius rounded corners  
+5.84mm radius rounded corners
 5.33mm diameter mounting holes (10-32 screws)  
 88.13 center distance between horizontal mounting holes.  
 41.14 center distance between vertical mounting holes.  
@@ -38,7 +38,8 @@ The Raspberry Pi Compute Module requires a 5v, 2+ Amp power supply. (5.1V Recomm
 6. Power over Ethernet
 7. Add JTAG functionality
 8. Probe Points for debugging
-9. Readd 0 ohm resistors from Raspberry Pi Foundantion schematics
+9. 3.5 mm audio jack via GPIO pins 40/45 (as seen [here](https://www.hasseb.fi/pi/schematics.pdf))
+10. Readd 0 ohm resistors from Raspberry Pi Foundantion schematics
 
 *License: GNU General Public License v3.0*  
 *[gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
