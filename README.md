@@ -36,6 +36,9 @@ The Raspberry Pi Compute Module requires a 5v, 2+ Amp power supply. (5.1V Recomm
 4. Expand USB selection to Dual USB-A, and USB-C with data.
 5. Add small, dedicated GPIO pins with 5V, 3V3, 1V8, and GND pins.
 6. Power over Ethernet
+7. Add JTAG functionality
+8. Probe Points for debugging
+9. Readd 0 ohm resistors from Raspberry Pi Foundantion schematics
 
 *License: GNU General Public License v3.0*  
 *[gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
