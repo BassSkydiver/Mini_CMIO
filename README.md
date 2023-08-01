@@ -29,17 +29,5 @@ Status LEDs:
 ## Important!
 The Raspberry Pi Compute Module requires a 5v, 2+ Amp power supply. (5.1V Recommended)
 
-## Todo:
-1. Redo the entire project with good schematic and PCB design practices!
-2. Design case with support for a 40mm fan, 10-32 mounting screws, and a power switch.
-3. Add dedicated Ethernet.
-4. Expand USB selection to Dual USB-A, and USB-C with data.
-5. Add small, dedicated GPIO pins with 5V, 3V3, 1V8, and GND pins.
-6. Power over Ethernet
-7. Add JTAG functionality
-8. Probe Points for debugging
-9. 3.5 mm audio jack via GPIO pins 40/45 (as seen [here](https://www.hasseb.fi/pi/schematics.pdf))
-10. Readd 0 ohm resistors from Raspberry Pi Foundantion schematics
-
 *License: GNU General Public License v3.0*  
 *[gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
