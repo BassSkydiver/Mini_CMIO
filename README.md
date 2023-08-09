@@ -1,29 +1,28 @@
 # CMIOBoard
 A tiny, compact IO board for the raspberry compute modules 1/3/3+
 
-![Top View](Images/topview.png) ![Bottom View](Images/bottomview.png)
+![Top View](Images/BoardRender.png)
 
 ## Features:
 IO Ports:  
-1. USB-C (Power only)
-2. HDMI
-3. USB-Micro B (Slave port)
-4. USB-A
+* USB-C (Power/USB 2.0)
+* HDMI
+* USB-Micro B (Slave port)
+* Dual-USB-A 2.0
+* Ethernet
 
-Internal Ports:  
-1. 4-pin PWM 5v Fan header
-2. 3-pin boot selection
-3. 2-pin On/Off switch header
-4. Vertical USB-A (Duplicate of the USB-A IO port)
-
-Status LEDs:  
-1. Power LED (Red)
-2. Boot LED (Green)
+Other:
+* Three pin 5V fan header
+* Three pin boot selector
+* 40 pin standard Raspberry Pi GPIO
+* 4x2.2mm mounting holes
+* Power LED (Red)
+* Boot LED (Green)
 
 ## Dimensions:
 99.06mm x 52.5mm  
 5.84mm radius rounded corners
-5.33mm diameter mounting holes (10-32 screws)  
+5.33mm diameter mounting holes (M2 or US #1/2 screws)  
 88.13 center distance between horizontal mounting holes.  
 41.14 center distance between vertical mounting holes.  
 ## Important!
