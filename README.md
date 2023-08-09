@@ -27,6 +27,7 @@ Other:
 59.94mm center distance between vertically aligned mounting holes.  
 ## Important!
 The Raspberry Pi Compute Module requires a 5v, 2+ Amp power supply. (5.1V Recommended)
+This board was made by a complete amatuer and should be avoided or subject to harsh scrutiny before used in a real application.
 
 *License: GNU General Public License v3.0*  
 *[gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
