@@ -1,33 +1,33 @@
 # CMIOBoard
 A tiny, compact IO board for the raspberry compute modules 1/3/3+
 
-![Top View](Images/topview.png) ![Bottom View](Images/bottomview.png)
+![Top View](Images/BoardRender.png)
 
 ## Features:
 IO Ports:  
-1. USB-C (Power only)
-2. HDMI
-3. USB-Micro B (Slave port)
-4. USB-A
+* USB-C (Power/USB 2.0)
+* HDMI
+* USB-Micro B (Slave port)
+* Dual-USB-A 2.0
+* Ethernet
 
-Internal Ports:  
-1. 4-pin PWM 5v Fan header
-2. 3-pin boot selection
-3. 2-pin On/Off switch header
-4. Vertical USB-A (Duplicate of the USB-A IO port)
-
-Status LEDs:  
-1. Power LED (Red)
-2. Boot LED (Green)
+Other:
+* Three pin 5V fan header
+* Three pin boot selector
+* 40 pin standard Raspberry Pi GPIO
+* 4x2.2mm mounting holes
+* Power LED (Red)
+* Boot LED (Green)
 
 ## Dimensions:
-99.06mm x 52.5mm  
-5.84mm radius rounded corners
-5.33mm diameter mounting holes (10-32 screws)  
-88.13 center distance between horizontal mounting holes.  
-41.14 center distance between vertical mounting holes.  
+75.66mm x 65.63mm  
+2.844mm radius rounded corners
+2.2mm diameter mounting holes (M2 or US #1/2 screws)  
+69.97mm center distance between horizontally aligned mounting holes.  
+59.94mm center distance between vertically aligned mounting holes.  
 ## Important!
 The Raspberry Pi Compute Module requires a 5v, 2+ Amp power supply. (5.1V Recommended)
+This board was made by a complete amatuer and should be avoided or subject to harsh scrutiny before used in a real application.
 
 *License: GNU General Public License v3.0*  
 *[gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
