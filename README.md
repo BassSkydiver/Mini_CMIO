@@ -20,11 +20,11 @@ Other:
 * Boot LED (Green)
 
 ## Dimensions:
-99.06mm x 52.5mm  
-5.84mm radius rounded corners
-5.33mm diameter mounting holes (M2 or US #1/2 screws)  
-88.13 center distance between horizontal mounting holes.  
-41.14 center distance between vertical mounting holes.  
+75.66mm x 65.63mm  
+2.844mm radius rounded corners
+2.2mm diameter mounting holes (M2 or US #1/2 screws)  
+69.97mm center distance between horizontally aligned mounting holes.  
+59.94mm center distance between vertically aligned mounting holes.  
 ## Important!
 The Raspberry Pi Compute Module requires a 5v, 2+ Amp power supply. (5.1V Recommended)
 
